@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">classes.Client</node>
+    <node x="155.5" y="90.0">DAO.ReserveDAO</node>
+    <node x="446.0" y="90.0">DAO.UserDAO</node>
+    <node x="319.4666666666667" y="90.0">DAO.RoomDAO</node>
+    <node x="12.0" y="90.0">DAO.ClientDAO</node>
+    <node x="354.0" y="0.0">classes.Room</node>
+    <node x="262.0" y="0.0">interfaces.DAO</node>
+    <node x="138.0" y="0.0">classes.Reserve</node>
+    <node x="234.0" y="190.0">services.DaoService</node>
+    <node x="478.0" y="0.0">classes.User</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="DAO.ClientDAO" target="classes.Client">
+      <point x="-40.0" y="-15.0" />
+      <point x="32.0" y="70.0" />
+      <point x="24.0" y="70.0" />
+      <point x="-24.0" y="15.0" />
+    </edge>
+    <edge source="services.DaoService" target="DAO.ClientDAO">
+      <point x="-56.0" y="-15.0" />
+      <point x="242.0" y="170.0" />
+      <point x="42.0" y="170.0" />
+      <point x="-30.0" y="15.0" />
+    </edge>
+    <edge source="DAO.RoomDAO" target="classes.Room">
+      <point x="34.66666666666666" y="-15.0" />
+      <point x="406.1333333333333" y="70.0" />
+      <point x="414.0" y="70.0" />
+      <point x="20.0" y="15.0" />
+    </edge>
+    <edge source="DAO.ReserveDAO" target="interfaces.DAO">
+      <point x="42.66666666666663" y="-15.0" />
+      <point x="262.16666666666663" y="70.0" />
+      <point x="289.0" y="70.0" />
+      <point x="-9.0" y="15.0" />
+    </edge>
+    <edge source="DAO.RoomDAO" target="interfaces.DAO">
+      <point x="-34.66666666666666" y="-15.0" />
+      <point x="336.8" y="70.0" />
+      <point x="307.0" y="70.0" />
+      <point x="9.0" y="15.0" />
+    </edge>
+    <edge source="services.DaoService" target="DAO.RoomDAO">
+      <point x="8.0" y="-15.0" />
+      <point x="306.0" y="140.0" />
+      <point x="345.4666666666667" y="140.0" />
+      <point x="-26.0" y="15.0" />
+    </edge>
+    <edge source="DAO.UserDAO" target="interfaces.DAO">
+      <point x="-34.66666666666666" y="-15.0" />
+      <point x="463.33333333333337" y="60.0" />
+      <point x="325.0" y="60.0" />
+      <point x="27.0" y="15.0" />
+    </edge>
+    <edge source="services.DaoService" target="DAO.UserDAO">
+      <point x="40.0" y="-15.0" />
+      <point x="338.0" y="160.0" />
+      <point x="472.0" y="160.0" />
+      <point x="-26.0" y="15.0" />
+    </edge>
+    <edge source="DAO.ReserveDAO" target="classes.Reserve">
+      <point x="-42.66666666666663" y="-15.0" />
+      <point x="176.83333333333337" y="50.0" />
+      <point x="164.0" y="50.0" />
+      <point x="-26.0" y="15.0" />
+    </edge>
+    <edge source="DAO.UserDAO" target="classes.User">
+      <point x="0.0" y="-15.0" />
+      <point x="-20.0" y="15.0" />
+    </edge>
+    <edge source="services.DaoService" target="DAO.ReserveDAO">
+      <point x="-8.0" y="-15.0" />
+      <point x="290.0" y="140.0" />
+      <point x="251.5" y="140.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="DAO.ClientDAO" target="interfaces.DAO">
+      <point x="40.0" y="-15.0" />
+      <point x="112.0" y="60.0" />
+      <point x="271.0" y="60.0" />
+      <point x="-27.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Balloon" zoom="1.0" x="279.0" y="110.0" />
+  <SelectedNodes>
+    <node>interfaces.DAO</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
